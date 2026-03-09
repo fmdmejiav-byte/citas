@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar Votación</title>
+    <link rel="stylesheet" href="/static/css/consulta.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Consulta de Puesto</h2>
+        <form action="/buscar" method="POST">
+            <label>Número de Documento</label>
+            <input type="text" name="numeroDocumento" required pattern="[0-9]{8,10}">
+            <button type="submit">Buscar Información</button>
+        </form>
+        <br>
+        <a href="/" style="color: #8b0000; text-decoration: none;">Volver al Inicio</a>
+    </div>
+</body>
+</html>

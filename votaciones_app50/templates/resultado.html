@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado de Consulta</title>
+    <link rel="stylesheet" href="/static/css/resultados.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Información de Votación</h2>
+        <div class="info">
+            <p><strong>Ciudadano:</strong> {{ ciudadano.nombre }}</p>
+            <p><strong>Identificación:</strong> {{ ciudadano.identificacion }}</p>
+            <hr>
+            <p><strong>Puesto:</strong> {{ ciudadano.nombre_puesto }}</p>
+            <p><strong>Dirección:</strong> {{ ciudadano.direccion }}</p>
+        </div>
+        <br>
+        <a href="/"><button>Volver al Inicio</button></a>
+    </div>
+</body>
+</html>

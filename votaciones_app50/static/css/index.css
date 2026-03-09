@@ -1,0 +1,94 @@
+/* Estilo general tipo iPhone */
+
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Arial, sans-serif;
+	background-color: #f2f2f7;
+	margin:0;
+	padding:0;
+}
+
+/* Contenedor principal */
+
+.container{
+	max-width:400px;
+	margin:40px auto;
+	background:white;
+	padding:25px;
+	border-radius:20px;
+	box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+
+h1,h2{
+	text-align:center;
+	color:#1c1c1e;
+}
+
+/* Inputs estilo iOS */
+
+input, select{
+	width:100%;
+	padding:12px;
+	margin-top:10px;
+	margin-bottom:15px;
+	border-radius:12px;
+	border:1px solid #d1d1d6;
+	background:#f9f9f9;
+	font-size:16px;
+}
+
+/* Botón estilo iPhone */
+
+button{
+	width:100%;
+	padding:14px;
+	border:none;
+	border-radius:14px;
+	background:#007aff;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+button:hover{
+	background:#005ecb;
+}
+
+/* Tarjetas */
+
+.card{
+	background:white;
+	padding:15px;
+	border-radius:16px;
+	margin-bottom:15px;
+	box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Lista candidatos */
+
+.candidato{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+/* Resultado votos */
+
+.resultado{
+	font-weight:bold;
+	color:#34c759;
+}
+
+/* Barra superior tipo iOS */
+
+.navbar{
+	background:white;
+	padding:15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	border-bottom:1px solid #e5e5ea;
+}

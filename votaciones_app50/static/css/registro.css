@@ -1,0 +1,197 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#0f0f0f,#8b0000);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.contenedor{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+select,input{
+width:100%;
+padding:10px;
+/* ===== iOS Premium UI ===== */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;
+	background:linear-gradient(135deg,#eef1f6,#dfe7f1);
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* Contenedor principal */
+
+.container{
+	width:380px;
+	background:rgba(255,255,255,0.75);
+	backdrop-filter:blur(20px);
+	border-radius:28px;
+	padding:35px;
+	box-shadow:
+		0 20px 40px rgba(0,0,0,0.15),
+		inset 0 1px 0 rgba(255,255,255,0.6);
+	border:1px solid rgba(255,255,255,0.6);
+}
+
+/* Títulos */
+
+h1,h2{
+	text-align:center;
+	margin-bottom:25px;
+	color:#1d1d1f;
+	font-weight:600;
+	letter-spacing:-0.5px;
+}
+
+/* Inputs estilo iOS */
+
+input, select{
+	width:100%;
+	padding:14px;
+	margin-bottom:18px;
+	border-radius:14px;
+	border:1px solid rgba(0,0,0,0.1);
+	background:#f5f5f7;
+	font-size:15px;
+	transition:all .25s ease;
+}
+
+input:focus, select:focus{
+	outline:none;
+	border-color:#007aff;
+	background:white;
+	box-shadow:0 0 0 3px rgba(0,122,255,0.15);
+}
+
+/* Botón premium */
+
+button{
+	width:100%;
+	padding:15px;
+	border:none;
+	border-radius:16px;
+	background:linear-gradient(135deg,#007aff,#0057ff);
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	transition:all .25s ease;
+	box-shadow:0 10px 20px rgba(0,122,255,0.3);
+}
+
+button:hover{
+	transform:translateY(-2px);
+	box-shadow:0 15px 25px rgba(0,122,255,0.35);
+}
+
+/* Cards */
+
+.card{
+	background:white;
+	border-radius:18px;
+	padding:18px;
+	margin-bottom:15px;
+	box-shadow:0 8px 18px rgba(0,0,0,0.08);
+	transition:.25s;
+}
+
+.card:hover{
+	transform:translateY(-3px);
+}
+
+/* Lista candidatos */
+
+.candidato{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+/* Resultados */
+
+.resultado{
+	font-weight:600;
+	color:#34c759;
+}
+
+/* Navbar estilo iOS */
+
+.navbar{
+	position:absolute;
+	top:30px;
+	width:380px;
+	padding:15px;
+	border-radius:18px;
+	text-align:center;
+	font-weight:600;
+	background:rgba(255,255,255,0.7);
+	backdrop-filter:blur(10px);
+	box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Animación suave */
+
+.container{
+	animation:fadeIn .6s ease;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity:0;
+		transform:translateY(15px);
+	}
+	to{
+		opacity:1;
+		transform:translateY(0);
+	}
+}
+	
+/* Existing styles below */
+	
+width:100%;
+padding:10px;
+margin-top:20px;
+border:none;
+background:#8b0000;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#5c0000;
+}
